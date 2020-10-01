@@ -2,9 +2,15 @@ const GET_ORDERS = /* GraphQL */ `
   query GET_ORDERS {
     orders {
       reference
-      externalReference
+      store
+      customer {
+        name
+      }
       amount
       deliveryFee
+      payments {
+        amount
+      }
     }
   }
 `

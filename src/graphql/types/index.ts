@@ -3,7 +3,7 @@ export interface IOrder {
   store: string
   customer: ICustomer
   address: IAddress
-  Items: IItem[]
+  items: IItem[]
   amount: number
   deliveryFee: number
   payments: IPayment[]
@@ -21,7 +21,7 @@ interface IAddress {
   state: string
   street: string
 }
-interface IItem {
+export interface IItem {
   name: string
   amount: string
   quantity: number

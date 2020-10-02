@@ -21,7 +21,7 @@ const OrderCard: React.FC<{
                 <s.ItemTitle>{lineContent.title}</s.ItemTitle>
                 {lineContent?.itemsData
                   ? lineContent.itemsData?.map(item => (
-                      <s.ItemWrapper>
+                      <s.ItemWrapper key={v4()}>
                         <s.HorizontalItem noMarginTop>
                           <s.ItemTitle>Nome: </s.ItemTitle>
                           <s.Text>{item.name}</s.Text>
@@ -45,7 +45,7 @@ const OrderCard: React.FC<{
                 <s.ItemTitle>{lineContent.title}</s.ItemTitle>
                 {lineContent?.paymentsData
                   ? lineContent.paymentsData?.map(item => (
-                      <s.ItemWrapper>
+                      <s.ItemWrapper key={v4()}>
                         <s.HorizontalItem noMarginTop>
                           <s.ItemTitle>Valor do pagamento: </s.ItemTitle>
                           <s.Text>{item.amount}</s.Text>

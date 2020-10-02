@@ -1,4 +1,6 @@
-const GET_ORDERS = /* GraphQL */ `
+import { gql } from '@apollo/client'
+
+const GET_ORDERS = gql`
   query GET_ORDERS {
     orders {
       reference

@@ -29,25 +29,11 @@ export const fontTypes = {
     fontWeight: 600,
     lineHeight: '19px',
   },
-  subheading: {
-    ...genericFontType,
-    fontSize: 11,
-    letterSpacing: 1.5,
-    fontWeight: 600,
-    lineHeight: '15px',
-  },
   body: {
     ...genericFontType,
     'font-size': 14,
     letterSpacing: 0,
     lineHeight: '19px',
-  },
-  button: {
-    'font-size': 11,
-    fontWeight: 600,
-    letterSpacing: 1.5,
-    textTransform: 'uppercase',
-    lineHeight: '15px',
   },
 }
 

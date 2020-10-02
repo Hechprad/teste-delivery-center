@@ -2,6 +2,8 @@ export interface IOrder {
   reference: number
   store: string
   customer: ICustomer
+  address: IAddress
+  Items: IItem[]
   amount: number
   deliveryFee: number
   payments: IPayment[]

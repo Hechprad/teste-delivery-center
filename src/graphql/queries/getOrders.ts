@@ -8,6 +8,19 @@ const GET_ORDERS = gql`
       customer {
         name
       }
+      address {
+        number
+        neighborhood
+        complement
+        city
+        state
+        street
+      }
+      items {
+        name
+        amount
+        quantity
+      }
       amount
       deliveryFee
       payments {

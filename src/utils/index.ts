@@ -1,5 +1,17 @@
 import { IPayment } from 'graphql/types'
 
+export const formatAddress = (
+  street: string,
+  number: string,
+  neighborhood: string,
+  complement: string,
+  city: string,
+  state: string
+): string => {
+  const address = `${street}, Nº ${number}, ${neighborhood}, ${complement}, ${city}, ${state}`
+  return address
+}
+
 export const formatMoney = (value: number): string =>
   String(
     new Intl.NumberFormat('pt-BR', {

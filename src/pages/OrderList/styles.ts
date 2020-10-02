@@ -8,12 +8,13 @@ export const Section = styled.section`
   justify-content: center;
   width: 100%;
   height: 100%;
+  padding-bottom: ${({ theme }) => `${theme.spacing(5)}px`};
 `
 
 export const Li = styled.li`
   background-color: ${({ theme }) => theme.colors.white2};
   justify-content: center;
-  width: 300px;
+  width: fit-content;
   height: 100%;
   padding: ${({ theme }) => `${theme.spacing(2)}px`};
   border-radius: 4px;

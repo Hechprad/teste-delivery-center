@@ -47,7 +47,7 @@ const OrderList: React.FC = () => {
               key={v4()}
               onClick={() => handleRedirectToDetails(order.reference)}
             >
-              <OrderCard order={order} />
+              <OrderCard order={order} cardType="basic" />
             </s.Li>
           ))}
         </ul>

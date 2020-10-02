@@ -3,12 +3,8 @@ import { DefaultTheme } from 'styled-components'
 export const themeColors = {
   background: '#232F45',
   gray1: '#EBEBEB',
-  gray2: '#BABABA',
-  gray3: '#898989',
+  gray2: '#898989',
   gray4: '#272727',
-  magenta1: '#E53B6A',
-  magenta2: '#E62254',
-  white1: '#ffffff',
   white2: '#f4ede8',
 }
 

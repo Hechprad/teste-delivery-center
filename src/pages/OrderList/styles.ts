@@ -29,7 +29,7 @@ export const Li = styled.li`
   }
 
   :active {
-    background-color: ${({ theme }) => theme.colors.gray3};
+    background-color: ${({ theme }) => theme.colors.gray2};
   }
 
   & + & {

@@ -11,6 +11,10 @@ export const Section = styled.section`
   padding-bottom: ${({ theme }) => `${theme.spacing(5)}px`};
 `
 
+export const Ul = styled.ul`
+  padding-bottom: ${({ theme }) => `${theme.spacing(2)}px`};
+`
+
 export const Li = styled.li`
   background-color: ${({ theme }) => theme.colors.white2};
   justify-content: center;

@@ -25,6 +25,7 @@ const GET_ORDERS = gql`
       deliveryFee
       payments {
         amount
+        method
       }
     }
   }
